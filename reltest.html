@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>404 Not Found</title>
+<h1>404 Not Found</h1>
+<script>
+	if (window.opener) {
+		document.write(opener.location);
+	} else {
+		document.querySelector('h1').innerHTML = 'Could not access opener.location';
+	}
+</script>
+
